@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+body{
+	background-color: lightgray;
+}
+
+header{
+
+}
+
+/*Header Nav*/
+.nav1{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav1-left{
+	width: 57%;
+	padding: 20px 30px 10px;
+}
+
+.nav1-right{
+	display: flex;
+	flex-direction: column;
+	width: 37%;
+	padding: 10px;
+}
+
+.nav1-right-1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-bottom: 10px;
+	justify-content: flex-end;
+}
+
+.nav1-right-1-button{
+	padding: 5px;
+	margin-right: 10px;
+	border-color: gray;
+	border-radius: 10px;
+}
+
+.nav1-right-1-button:hover{
+	background-color: white;
+	border-color: black;
+}
+
+.google-search{
+	background-color: white;
+}
+
+.google-search input{
+	border-style: none;
+	padding-left: 4px;
+	width: 70%;
+	height: 100%;
+}
+
+.button-search{
+	border-style: none;
+	background-color: white;
+	width: 24%;
+	height: 100%;
+}
+
+.button-search:hover{
+	background-color: lightgray;
+	width: 18%;
+	height: 100%;
+}
+
+.nav1-right-2{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav1-right-2 div{
+	display: inline-flex;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	background-color: white;
+}
+
+/*Main Nav*/
+.nav2{
+	width: 100%;
+	background-color: gray;
+}
+
+.nav2 ul{
+	list-style-type: none;
+	display: inline-flex;
+	margin-left: 30%;
+}
+
+.nav2 li{
+	padding: 10px;
+}
+
+.nav2 li:hover{
+	padding: 10px;
+	background-color: darkgray;
+}
+
+.nav2 a{
+	color: white;
+	text-decoration: none;
+}
+
+
+/*posts*/
+.post{
+	margin: 10px;
+	padding: 10px;
+	padding-bottom: 30px;
+	width: 97%;
+	height: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: silver;
+}
+/*left one*/
+.post-left{
+	width: 100%;
+}
+
+.post-left img{
+	width: 100%;
+	height: auto;
+}
+
+.post-left .title{
+	font-size: 25px;
+	font-weight: bold;
+	color : blue;
+}
+
+.post-left .link{
+	margin : 10px 0px 10px 0px;
+	color : gray;
+}
+
+.post-left .link a{
+	text-decoration: none;
+	color : blue;
+}
+
+.post-left .desc{
+	margin : 10px 0px 10px 0px;
+	color : black;
+}
+
+.post-left .time{
+	font-size: 15px;
+	color : black;
+}
+
+/*centre one*/
+.post-centre{
+	margin-left: 1%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.smallPost{
+	display: flex;
+	flex-wrap: nowrap;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.smallPost img{
+	width: 30%;
+}
+
+.smallPost div{
+	padding-left: 10px;
+}
+
+/*right one*/
+.post-right{
+	width: 100%;
+	margin-left: 1%;
+}
+
+
+/*slider*/
+.slider{
+	margin: 10px;
+	width: 98.5%;
+	height: auto;
+}
+
+.slider img{
+	width: 100%;
+	height: auto;
+}
+
+
+/*display page*/
+.header{
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.header-left{
+	width: 70%;
+}
+
+.header-right{
+	flex-direction: row-reverse;
+}
+
+.title{
+	font-weight: bold;
+	padding-bottom: 30px;
+	font-size: 40px;
+}
+
+.desc{
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+.body{
+	padding: 10px;
+}
+
+
+/*footer*/
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	background-color: gray;
+}
+
+footer ul{
+	color: white;
+	margin-bottom: 15px;
+	list-style-type: none;
+	display: inline-flex;
+}
+
+footer ul li{
+	padding: 5px;
+}
+
+footer p{
+	color: white;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+.cprt{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+} 
